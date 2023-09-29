@@ -1,0 +1,24 @@
+I've grown tired of the way this shit is done, I don't quite like the way that git works - and other people don't like my mitigations.
+So I'm doing my own.
+It sounds like an interesting enough technical problem.
+  TODO:
+    3D shapeshifting robot and other important branding aspects
+    Code of Conduct:
+      If you want one, by all means feel free to bend over, reach up your own arse, and go searching.
+    Data Structures:
+      Generalised DAG node structures
+      DAG node implementation that implements a graph structure
+      Graph-Isomorphic value hashing
+        All roads should lead to Rome (I only think about the Roman empire with metaphors like this, but I do spend time thinking about the amount of time I fail to spend thinking about the Roman empire).
+          If I have a src-state S and a dst-state D and a delta Δ with the relationship:
+            S + Δ = D;
+          Then I want also to have the delta negative relationship:
+            D - Δ = S;
+          And I want the two things to be treated as the same.
+            .hash(D) ≡ .hash(S + Δ);
+            .hash(S) ≡ .hash(D - Δ);
+          (In all cases without and or before programmatic post-processing) if two objects represent directories that are both structurally an informationally equivalent, they should hash to the same values (regardless of how they are structured).
+            For example:
+              S + Δ = D; 
+      s    s  s
+
