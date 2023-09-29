@@ -19,6 +19,7 @@ It sounds like an interesting enough technical problem.
             .hash(S) ≡ .hash(D - Δ);
           (In all cases without and or before programmatic post-processing) if two objects represent directories that are both structurally an informationally equivalent, they should hash to the same values (regardless of how they are structured).
             For example:
-              S + Δ = D; 
-      s    s  s
+              S + ΔA = I;
+              I + ΔB = D; 
+              
 
