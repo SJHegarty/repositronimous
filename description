@@ -2,9 +2,24 @@ I've grown tired of the way this shit is done, I don't quite like the way that g
 So I'm doing my own.
 It sounds like an interesting enough technical problem.
   TODO:
-    3D shapeshifting robot and other important branding aspects
+     - Tabs or go fuck yourself
+     - Meta-Yaks
+       - Write a code formatter.
+        - Write an indent detector. For example, the aweful github thing spat out this two space indented by default monstrosity.
+          - bash scripts.
+           - detect spaces or tabs
+           - if spaces
+            - someone can go fuck themselves
+            - greatest common divisor (across all lines) of the number of spaces preceeding first visible content of the line.
+             - replace those spaces with number divided by the gcd
+       - Ultimately write your own web text editor, run locally commit locally, backup remotely.
+        - Ride your horse on the moon and do a backflip
+      - 3D shapeshifting robot and other important branding related aspects
+
     Code of Conduct:
       If you want one, by all means feel free to bend over, reach up your own arse, and go searching.
+    Compatability:
+      Interoperability with the git ecosystem
     Data Structures:
       Generalised DAG node structures
       DAG node implementation that implements a graph structure
@@ -23,3 +38,5 @@ It sounds like an interesting enough technical problem.
               I + ΔB = D; 
               
 
+
+              S
